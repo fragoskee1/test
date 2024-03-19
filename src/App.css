@@ -1,0 +1,54 @@
+.body {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+    margin: 40px 0px 50px -40px;
+}
+
+.items {
+    list-style: none;
+    text-align: left;
+    margin-left: 80px;
+    line-height: 40px;
+}
+
+.logout {
+    margin-top: 90px;
+}
+
+.logouticon {
+    margin-bottom: 3px;
+}
+
+.header {
+    margin-top: 43px;
+    padding-left: 40px;
+}
+
+.vendor {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.user {
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.id{
+    border-radius: 10px ;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown a {
+  display: flex;
+  align-items: center;
+}
+
