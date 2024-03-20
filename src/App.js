@@ -62,18 +62,16 @@ function App() {
           </div>
           <div className="id col-sm-3 bg-light">
             <div className="dropdown">
-            <img src="/logo.png" alt="image" className="user img-fluid" />
+              <button className="dropbtn">
+              <img src="/logo.png" alt="image" className="user img-fluid" />
             Hello, <b> Anita</b>
-              <li class="nav-item dropdown detail1">
-                <a class="nav-link dropdown-toggle arrow" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/">Action</a></li>
-                  <li><a class="dropdown-item" href="/">Another action</a></li>
-                  <li><a class="dropdown-item" href="/">Something else here</a></li>
-                </ul>
-              </li>
-          </div>
+              </button>
+              <div class="dropdown-content">
+                <a href="/">Option 1</a>
+                <a href="/">Option 2</a>
+                <a href="/">Option 3</a>
+              </div>
+            </div>
           </div>
         </div>
        </div>
