@@ -31,11 +31,11 @@ function App() {
             Vendor
           </div>
           <div className="id col-sm-2 bg-light">
-            <img src="/logo.png" alt="image" className="user img-fluid" />
-            Hello, Anita
             <div className="dropdown">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="/logo.png" alt="image" className="user img-fluid" />
+            Hello, <b> Anita</b>
+              <li class="nav-item dropdown detail1">
+                <a class="nav-link dropdown-toggle arrow" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/">Action</a></li>
@@ -47,9 +47,34 @@ function App() {
           </div>
         </div>
        </div>
+       <div className="buttons">
+        <div className="row">       
+          <div className="search-container col-sm-8">
+            <input type="text" className="search-box search" placeholder="Search..."/>
+            <button type="submit" class="search-button  ">Search</button>
+          </div>
+          <div className="export col-sm-2 bg-light">
+          <div className="dropdown">
+            Export
+              <li class="nav-item dropdown export1">
+                <a class="nav-link dropdown-toggle arrow" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/">Action</a></li>
+                  <li><a class="dropdown-item" href="/">Another action</a></li>
+                  <li><a class="dropdown-item" href="/">Something else here</a></li>
+                </ul>
+              </li>
+          </div>
+          </div>
+          <div className="col-sm-2 menu">
+            <img src="/menu.png" alt="image" className="menubox" />
+            </div>
+          </div>
+        </div>
+       </div>
     </div>
   </div>
-</div>
     </>
   );
 }

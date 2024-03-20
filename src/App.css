@@ -7,6 +7,9 @@
     margin: 40px 0px 50px -40px;
 }
 
+.hello {
+    font-weight: bold;
+}
 .items {
     list-style: none;
     text-align: left;
@@ -25,6 +28,7 @@
 .header {
     margin-top: 43px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .vendor {
@@ -45,6 +49,7 @@
 .dropdown {
   display: flex;
   align-items: center;
+  width: 200px;
 }
 
 .dropdown a {
@@ -52,3 +57,70 @@
   align-items: center;
 }
 
+.dropdown a:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.detail1 {
+    margin-left: 35px;
+}
+
+.buttons {
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.magnifine {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search {
+    font-size: 16px;
+    border-radius: 10px;
+    height: 40px;
+    width: 650px;
+    border-width: 0px;
+    padding-left: 30px;
+}
+
+.search-button{
+    justify-content: center;
+    border-width: 0px;
+    background-color: #0056b3;
+    color: white;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.export {
+    margin-left: 160px;
+    border-radius: 10px;
+    padding-top: 6px;
+    width: 140px;
+    height: 40px;
+}
+
+.export1 {
+    margin-left: 55px;
+}
+
+.menu {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: rgb(62,93,143);
+}
+
+.menubox {
+    margin-top: 5px;
+    margin-left: -7px;
+    height: 40px;
+    width: 40px;
+}
